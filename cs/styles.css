@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.titulo-principal {
+    font-size: 36px;
+    color: blue;
+    font-weight: bold;
+}
+
+nav, h2, h3, p {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+  padding: 0 560px;
+}
+
+.subtitulo {
+    list-style: none;
+    display: flex;
+    padding: 10px 0;
+}
+
+.subtitulo li {
+    margin: 0 15px;
+}
+
+.subtitulo a {
+    color: red;
+    text-decoration: none;
+}
+
+.historia {
+    display: none;
+    padding: 20px;
+    border-top: 1px solid;
+}
+
+:target {
+    display: block;
+}
+
+.content h2 {
+    color: red;
+}
+
+.content p {
+    line-height: 1.5;
+}
